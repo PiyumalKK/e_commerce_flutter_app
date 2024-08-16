@@ -41,3 +41,18 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter native splash generated files
+android/app/src/main/res/drawable/splash_screen.xml
+android/app/src/main/res/drawable-v21/splash_screen.xml
+android/app/src/main/res/drawable/splash_screen_background.xml
+android/app/src/main/res/drawable-v21/splash_screen_background.xml
+ios/Runner/Assets.xcassets/SplashScreen.imageset/
+
+# Miscellaneous
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-deps
+.flutter-plugins-deps.json
+build/
