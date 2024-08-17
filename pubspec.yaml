@@ -19,6 +19,7 @@ dependencies:
   url_launcher: ^6.1.12
   flutter_native_splash: ^2.3.1
   smooth_page_indicator: ^1.1.0
+  
 
   # Icons
   iconsax: ^0.0.8
@@ -50,7 +51,7 @@ flutter:
   assets:
     - assets/logos/
     - assets/icons/brands/
-    - assets/images/
+    - assets/images/on_boarding_images/
 
   fonts:
     - family: Poppins
