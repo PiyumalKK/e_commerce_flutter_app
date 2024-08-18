@@ -1,5 +1,4 @@
 import 'package:e_com/features/authentication/controllers/onboarding/onboarding.controller.dart';
-import 'package:e_com/features/authentication/controllers/onboarding/onboarding.controller.dart';
 
 import 'package:e_com/features/authentication/screens/onboarding/widgets/onboarding.page.dart';
 import 'package:e_com/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
