@@ -27,7 +27,7 @@ class LoginScreen extends StatelessWidget {
               TLoginHeader(dark: dark),
 
               //Form
-              TLoginForm(),
+              const TLoginForm(),
 
               //Divider
               TFormDevider(
@@ -39,7 +39,7 @@ class LoginScreen extends StatelessWidget {
               ),
 
               //footer
-              TSocialButtons()
+              const TSocialButtons()
             ],
           ),
         ),
@@ -189,7 +189,7 @@ class TLoginForm extends StatelessWidget {
               width: double.infinity,
               child: ElevatedButton(
                 onPressed: () {},
-                child: Text(TTexts.signIn),
+                child: const Text(TTexts.signIn),
               ),
             ),
 
@@ -201,7 +201,7 @@ class TLoginForm extends StatelessWidget {
               width: double.infinity,
               child: ElevatedButton(
                 onPressed: () {},
-                child: Text(TTexts.createAccount),
+                child: const Text(TTexts.createAccount),
               ),
             ),
             const SizedBox(

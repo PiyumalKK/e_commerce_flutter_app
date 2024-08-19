@@ -17,7 +17,7 @@ class App extends StatelessWidget {
       //   )
       // ),
       darkTheme: TAppTheme.darkTheme,
-      home: OnBoardingScreen(),
+      home: const OnBoardingScreen(),
     );
   }
 }
