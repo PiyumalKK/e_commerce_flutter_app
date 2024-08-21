@@ -1,4 +1,4 @@
-import 'package:e_com/features/authentication/screens/home/home.dart';
+import 'package:e_com/features/shop/screens/home/home.dart';
 import 'package:e_com/utils/constants/colors.dart';
 import 'package:e_com/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
