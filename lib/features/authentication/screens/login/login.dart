@@ -1,4 +1,5 @@
 import 'package:e_com/common/styles/spacing_styles.dart';
+import 'package:e_com/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:e_com/features/authentication/screens/signup/signup.dart';
 
 import 'package:e_com/utils/constants/colors.dart';
@@ -177,7 +178,7 @@ class TLoginForm extends StatelessWidget {
                 ),
                 //Forgot password
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () => Get.to(() => const ForgetPassword()),
                   child: const Text(TTexts.forgetPassword),
                 )
               ],
