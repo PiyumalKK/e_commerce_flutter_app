@@ -1,6 +1,7 @@
 import 'package:e_com/common/styles/spacing_styles.dart';
 import 'package:e_com/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:e_com/features/authentication/screens/signup/signup.dart';
+import 'package:e_com/navigation_menu.dart';
 
 import 'package:e_com/utils/constants/colors.dart';
 import 'package:e_com/utils/constants/image_strings.dart';
@@ -190,7 +191,7 @@ class TLoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () => Get.to(() => const NavigationMenu()),
                 child: const Text(TTexts.signIn),
               ),
             ),
