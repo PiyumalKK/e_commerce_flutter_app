@@ -1,3 +1,4 @@
+import 'package:e_com/utils/constants/colors.dart';
 import 'package:e_com/utils/constants/sizes.dart';
 import 'package:e_com/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
@@ -25,7 +26,9 @@ class OnBoardingPage extends StatelessWidget {
           ),
           Text(
             title,
-            style: Theme.of(context).textTheme.headlineMedium,
+            style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                  color: TColors.primary,
+                ),
             textAlign: TextAlign.center,
           ),
           const SizedBox(

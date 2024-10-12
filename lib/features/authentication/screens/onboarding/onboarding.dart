@@ -61,9 +61,11 @@ class OnBoardingScreen extends StatelessWidget {
               bottom: TDeviceUtils.getBottomNavigationBarHeight(),
               child: ElevatedButton(
                 onPressed: () => OnBoardingController.instance.nextPage(),
-                style: ElevatedButton.styleFrom(shape: const CircleBorder()),
+                style: ElevatedButton.styleFrom(
+                  shape: const CircleBorder(),
+                ),
                 child: const Icon(Iconsax.arrow_right_3),
-              ))
+              )),
         ],
       ),
     );
